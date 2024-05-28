@@ -1,6 +1,6 @@
 # SRT-ts
 
-## a Typescript wrapper of [SRT](https://github.com/ryanking13/SRT) 
+## a Typescript wrapper of [SRT](https://github.com/ryanking13/SRT) : by [ryanking13](https://github.com/ryanking13)
 
 ### todo
 
@@ -11,3 +11,6 @@
 - ...
 
 disclaimer: all tests passed but use at your own risk.
+
+
+
