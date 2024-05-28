@@ -4,13 +4,16 @@
 
 ### todo
 
-- update docs
+-   update docs
 
-- publish package
+-   publish package
 
-- ...
+-   ...
 
 disclaimer: all tests passed but use at your own risk.
 
+---
 
+## Quick start
 
+`npm install srt-ts`

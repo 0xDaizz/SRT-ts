@@ -7,11 +7,12 @@
     "scripts": {
         "build": "tsc",
         "test": "jest",
-        "minitest": "node ./__test__/test.mjs"
+        "minitest": "node ./__test__/test.mjs",
+        "prepare": "rm -rf dist && tsc"
     },
     "keywords": [],
     "author": "0xDaizz",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "axios": "^1.7.2",
         "axios-cookiejar-support": "^5.0.2",
@@ -30,5 +31,12 @@
         "ts-jest": "^29.1.4",
         "ts-node": "^10.9.2",
         "typedoc": "^0.25.13"
+    },
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "Typescript wrapper of SRT train api"
     }
 }
