@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/srt-ts.svg)](https://www.npmjs.com/package/srt-ts)
 [![license](https://img.shields.io/github/license/0xdaizz/srt-ts.svg?style=flat)](license)
+![github actions badge](https://github.com/0xdaizz/srt-ts/workflows/Test/badge.svg)
+[![types](https://img.shields.io/npm/types/typedoc-material-theme)](https://github.com/microsoft/TypeScript)
 ![twitter](https://img.shields.io/twitter/follow/Lucky_daiz?style=social)
 
 Unofficial typescript API client for Korean [SRT](https://etk.srail.kr) train.
