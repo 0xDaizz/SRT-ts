@@ -52,7 +52,8 @@ const trains = await srt.searchTrain(dep, arr, date, time); // 검색
 const res = await srt.reserve(trains[0]);   // 예약
 
 // res.toString()
-// '[SRT] 05월 29일, 수서~부산 (18:37~21:24) 51600원(1석), 구입기한 05월 29일 02:12'
+// '[SRT] 05월 29일, 수서~부산 (18:37~21:24) 51600원(1석),
+// 구입기한 05월 29일 02:12'
 
 
 const ticket = await srt.ticketInfo(res);   // 예약 티켓 조회
@@ -65,5 +66,11 @@ const c = await srt.cancel(res);    // 예약 취소
 // c = true
 
 ```
+
+## Docs
+
+**[Docs page](https://0xdaizz.github.io/SRT-ts/)**
+
+You can check the whole api reference on this page.
 
 ## (WIP)
