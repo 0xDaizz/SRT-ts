@@ -2,5 +2,7 @@
     "entryPoints": ["./src/**/*.ts"],
     "out": "./docs",
     "exclude": ["**/__test__/**", "**/node_modules/**", "**/dist/**"],
-    "tsconfig": "tsconfig.json"
+    "tsconfig": "tsconfig.json",
+    "plugin": ["typedoc-material-theme"],
+    "themeColor": "#cb9820"
 }
